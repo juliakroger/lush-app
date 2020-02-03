@@ -1,5 +1,5 @@
 import React from 'react'
-import { Icon, SubscriptionButton } from '..'
+import { Icon, SubscriptionButton, PaymentsAccepted } from '..'
 import styles from './Footer.module.scss'
 
 const Footer = () => {
@@ -24,6 +24,7 @@ const Footer = () => {
         <div className={styles.newsSubscription}>
           <span className={styles.title}>Get the latest Lush News!</span>
           <SubscriptionButton />
+          <PaymentsAccepted />
         </div>
       </div>
 
