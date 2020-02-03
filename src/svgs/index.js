@@ -1,4 +1,8 @@
+export { default as Amex } from './Amex'
 export { default as Github } from './Github'
 export { default as Heart } from './Heart'
 export { default as Instagram } from './Instagram'
+export { default as MasterCard } from './MasterCard'
+export { default as Paypal } from './Paypal'
 export { default as Twitter } from './Twitter'
+export { default as Visa } from './Visa'
