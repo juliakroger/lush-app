@@ -1,5 +1,5 @@
 import React from 'react'
-import { Icon, SubscriptionButton, PaymentsAccepted } from '..'
+import { Icon, SubscriptionButton, PaymentsAccepted } from '../../components'
 import styles from './Footer.module.scss'
 
 const Footer = () => {
