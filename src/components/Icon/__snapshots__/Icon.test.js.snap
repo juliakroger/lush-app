@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component - Icon should render Amex svg 1`] = `ShallowWrapper {}`;
+
+exports[`Component - Icon should render Github svg 1`] = `ShallowWrapper {}`;
+
+exports[`Component - Icon should render Heart svg 1`] = `ShallowWrapper {}`;
+
+exports[`Component - Icon should render Instagram svg 1`] = `ShallowWrapper {}`;
+
+exports[`Component - Icon should render Mastercard svg 1`] = `ShallowWrapper {}`;
+
+exports[`Component - Icon should render Paypal svg 1`] = `ShallowWrapper {}`;
+
+exports[`Component - Icon should render Twitter svg 1`] = `ShallowWrapper {}`;
+
+exports[`Component - Icon should render Visa svg 1`] = `ShallowWrapper {}`;
