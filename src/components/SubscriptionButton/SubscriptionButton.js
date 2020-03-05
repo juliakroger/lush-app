@@ -1,4 +1,6 @@
 import React from 'react'
+import PropTypes from 'prop-types'
+
 import styles from './SubscriptionButton.module.scss'
 
 const SubscriptionButton = ({ clickSubscribe }) => {
@@ -21,6 +23,14 @@ const SubscriptionButton = ({ clickSubscribe }) => {
       </button>
     </div>
   )
+}
+
+SubscriptionButton.propTypes = {
+  clickSubscribe: PropTypes.func
+}
+
+SubscriptionButton.defaultProps = {
+  clickSubscribe: () => {}
 }
 
 export default SubscriptionButton
