@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './SubscriptionButton.module.scss'
 
-const SubscriptionButton = () => {
+const SubscriptionButton = ({ clickSubscribe }) => {
   return (
     <div className={styles.newsletterButton}>
       <input
@@ -12,7 +12,11 @@ const SubscriptionButton = () => {
         className={styles.subscribeInput}
       ></input>
 
-      <button id='subscribe-button' className={styles.subscribeButton}>
+      <button
+        id='subscribe-button'
+        className={styles.subscribeButton}
+        onClick={clickSubscribe}
+      >
         Subscribe
       </button>
     </div>
