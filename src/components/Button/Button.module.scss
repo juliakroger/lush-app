@@ -1,0 +1,40 @@
+@import '../../scss/variables.scss';
+@import '../../scss/responsive-utils';
+
+@mixin simpleButton {
+  font-size: $font-size-small;
+  margin: 10px;
+  color: $white-color;
+  width: 200px;
+  padding: 10px 15px;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.buttonDark {
+  @include simpleButton();
+  background-color: $light-black-color;
+  border: 1px solid $light-black-color;
+}
+
+.buttonLight {
+  @include simpleButton();
+  background-color: $grey-color;
+  border: 1px solid $grey-color;
+  color: $black-color;
+}
+
+.buttonRed {
+  @include simpleButton();
+  background-color: $super-orange-color;
+  border: 1px solid $super-orange-color;
+}
+
+.buttonMint {
+  @include simpleButton();
+  background-color: $mint-color;
+  border: 1px solid $mint-color;
+  color: $black-color;
+}
