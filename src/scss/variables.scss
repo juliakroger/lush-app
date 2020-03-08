@@ -1,21 +1,16 @@
-$mint-color: #D9EDEA;
+$mint-color: #d9edea;
 $super-orange-color: #ff4641;
-$orange-color: #F4CEC3;
-$light-orange-color: #FFF2EE;
-$white-color: #F9F9F9;
-$light-grey-color: #ECE7E6;
-$grey-color: #CCC7CE;
-$light-black-color: #58595B;
+$orange-color: #f4cec3;
+$light-orange-color: #fff2ee;
+$white-color: #f9f9f9;
+$light-grey-color: #ece7e6;
+$grey-color: #ccc7ce;
+$light-black-color: #58595b;
 $black-color: #111111;
 
-
-// fonts: Header font: cardo
-// fonts: Body font: work sans
 $font-thin: 100;
-$font-light: 200;
-$font-medium: 500;
-$font-bold: 700;
-
+$font-normal: 300;
+$font-bold: 500;
 
 $font-size-xxsmall: 10px;
 $font-size-xsmall: 12px;
@@ -28,8 +23,6 @@ $font-size-xxlg: 30px;
 $font-size-xxxlg: 40px;
 $font-size-xxxxlg: 60px;
 
-
 $screen-mobile: 375 !default;
 $screen-md-min: 750px !default;
 $screen-md-max: 900px !default;
-
