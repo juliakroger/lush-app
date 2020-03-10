@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component - Button should render without crashing 1`] = `
+<button
+  className="buttonDark"
+  id="#test-button"
+  onClick={[Function]}
+>
+  my button
+</button>
+`;
+
+exports[`Component - Button should render without crashing 2`] = `
+<button
+  className="buttonLight"
+  id="#test-button"
+  onClick={[Function]}
+>
+  my button
+</button>
+`;
+
+exports[`Component - Button should render without crashing 3`] = `
+<button
+  className="buttonRed"
+  id="#test-button"
+  onClick={[Function]}
+>
+  my button
+</button>
+`;
+
+exports[`Component - Button should render without crashing 4`] = `
+<button
+  className="buttonMint"
+  id="#test-button"
+  onClick={[Function]}
+>
+  my button
+</button>
+`;
