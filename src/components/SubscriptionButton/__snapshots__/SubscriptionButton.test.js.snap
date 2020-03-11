@@ -1,3 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Component - Subscription Button should render without crashing 1`] = `ShallowWrapper {}`;
+exports[`Component - Subscription Button should render without crashing 1`] = `
+<div
+  className="newsletterButton"
+>
+  <input
+    className="subscribeInput"
+    id="newsletter-email"
+    name="email"
+    placeholder="Your email"
+    type="email"
+  />
+  <button
+    className="subscribeButton"
+    id="subscribe-button"
+    onClick={[Function]}
+  >
+    Subscribe
+  </button>
+</div>
+`;
