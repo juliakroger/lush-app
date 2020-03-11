@@ -1,7 +1,74 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Component - Input should render without crashing 1`] = `ShallowWrapper {}`;
+exports[`Component - Input should render without crashing 1`] = `
+<div
+  className="inputContainer"
+>
+  <div
+    className="labels"
+  />
+  <input
+    className="input"
+    id="#test-input"
+    onChange={[Function]}
+    placeholder=""
+    value="value"
+  />
+</div>
+`;
 
-exports[`Component - Input should render without crashing 2`] = `ShallowWrapper {}`;
+exports[`Component - Input should render without crashing 2`] = `
+<div
+  className="inputContainer"
+>
+  <div
+    className="labels"
+  >
+    <div
+      className="label"
+    >
+      label 1
+    </div>
+    <div
+      className="secondaryLabel"
+    >
+      label 2
+    </div>
+  </div>
+  <input
+    className="input"
+    id="#test-input"
+    onChange={[Function]}
+    placeholder="my input test"
+    value="value"
+  />
+</div>
+`;
 
-exports[`Component - Input should trigger change without crashing 1`] = `ShallowWrapper {}`;
+exports[`Component - Input should trigger change without crashing 1`] = `
+<div
+  className="inputContainer"
+>
+  <div
+    className="labels"
+  >
+    <div
+      className="label"
+    >
+      label 1
+    </div>
+    <div
+      className="secondaryLabel"
+    >
+      label 2
+    </div>
+  </div>
+  <input
+    className="input"
+    id="#test-input"
+    onChange={[Function]}
+    placeholder="my input test"
+    value=""
+  />
+</div>
+`;
