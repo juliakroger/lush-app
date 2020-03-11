@@ -1,3 +1,33 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Component - Payments Accepted should render without crashing 1`] = `ShallowWrapper {}`;
+exports[`Component - Payments Accepted should render without crashing 1`] = `
+<div
+  className="row"
+>
+  <span
+    className="text"
+  >
+    We accept:
+  </span>
+  <div
+    className="icon"
+  >
+    <Icon
+      className="card"
+      type="visa"
+    />
+    <Icon
+      className="card"
+      type="amex"
+    />
+    <Icon
+      className="card"
+      type="mastercard"
+    />
+    <Icon
+      className="card"
+      type="paypal"
+    />
+  </div>
+</div>
+`;
