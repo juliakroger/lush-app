@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container - Footer should render correctly 1`] = `
+<footer
+  className="footer"
+>
+  <div
+    className="topFooter"
+  >
+    <div
+      className="allLinks"
+    >
+      <div
+        className="list"
+      >
+        <span
+          className="title"
+        >
+          Customer Care
+        </span>
+        <a
+          href="/"
+        >
+          Contact
+        </a>
+        <a
+          href="/"
+        >
+          Shipping
+        </a>
+        <a
+          href="/"
+        >
+          Returns
+        </a>
+        <a
+          href="/"
+        >
+          FAQ
+        </a>
+        <a
+          href="/"
+        >
+          Policies
+        </a>
+      </div>
+      <div
+        className="list"
+      >
+        <span
+          className="title"
+        >
+          Discover
+        </span>
+        <a
+          href="/"
+        >
+          Our Story
+        </a>
+      </div>
+    </div>
+    <div
+      className="newsSubscription"
+    >
+      <span
+        className="title"
+      >
+        Get the latest Lush News!
+      </span>
+      <SubscriptionButton
+        clickSubscribe={[Function]}
+      />
+      <PaymentsAccepted />
+    </div>
+  </div>
+  <div
+    className="bottomFooter"
+  >
+    <div
+      className="socialIcons"
+    >
+      <div
+        className="icon"
+      >
+        <Icon
+          type="twitter"
+        />
+      </div>
+      <div
+        className="icon"
+      >
+        <Icon
+          type="github"
+        />
+      </div>
+      <div
+        className="icon"
+      >
+        <Icon
+          type="instagram"
+        />
+      </div>
+    </div>
+    <div
+      className="developedBy"
+    >
+      <span>
+        Developed with 
+        <Icon
+          type="heart"
+        />
+         by Júlia Kroger.
+      </span>
+    </div>
+    <div
+      className="company"
+    >
+      <span>
+        ©2020 - Lush Brazil used for portfolio.
+      </span>
+    </div>
+  </div>
+</footer>
+`;
