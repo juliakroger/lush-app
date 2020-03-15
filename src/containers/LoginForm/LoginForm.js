@@ -40,9 +40,9 @@ const LoginForm = ({ email, setEmail, password, setPassword, submit }) => {
 }
 
 LoginForm.propTypes = {
-  email: PropTypes.string.isRequired,
+  email: PropTypes.any,
   setEmail: PropTypes.func.isRequired,
-  password: PropTypes.string.isRequired,
+  password: PropTypes.any,
   setPassword: PropTypes.func.isRequired,
   submit: PropTypes.func.isRequired
 }
