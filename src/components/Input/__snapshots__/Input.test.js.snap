@@ -10,9 +10,10 @@ exports[`Component - Input should render with only required props 1`] = `
   <input
     className="input"
     id="#test-input"
+    onBlur={[Function]}
     onChange={[Function]}
     placeholder=""
-    required={true}
+    required={false}
     type="input"
     value="value"
   />
@@ -41,9 +42,10 @@ exports[`Component - Input should render with placeholder, label and secondary l
   <input
     className="input"
     id="#test-input"
+    onBlur={[Function]}
     onChange={[Function]}
     placeholder="my input test"
-    required={true}
+    required={false}
     type="input"
     value="value"
   />
@@ -68,9 +70,10 @@ exports[`Component - Input should render with secondary label, click secondary f
   <input
     className="input"
     id="#test-input"
+    onBlur={[Function]}
     onChange={[Function]}
     placeholder=""
-    required={true}
+    required={false}
     type="password"
     value="value"
   />
@@ -99,9 +102,10 @@ exports[`Component - Input should trigger input change 1`] = `
   <input
     className="input"
     id="#test-input"
+    onBlur={[Function]}
     onChange={[Function]}
     placeholder="my input test"
-    required={true}
+    required={false}
     type="input"
     value=""
   />
