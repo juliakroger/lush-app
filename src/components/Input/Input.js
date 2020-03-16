@@ -11,7 +11,9 @@ const Input = ({
   label,
   secondaryLabel,
   clickSecondary,
-  type
+  type,
+  blurButtonFunction,
+  isRequired
 }) => (
   <div className={styles.inputContainer}>
     <div className={styles.labels}>
@@ -37,7 +39,8 @@ const Input = ({
       id={id}
       className={styles.input}
       type={type}
-      required
+      onBlur={() => blurButtonFunction()}
+      required={isRequired}
     />
   </div>
 )
@@ -50,14 +53,18 @@ Input.propTypes = {
   label: PropTypes.any,
   secondaryLabel: PropTypes.any,
   clickSecondary: PropTypes.func,
-  type: PropTypes.string
+  type: PropTypes.string,
+  blurButtonFunction: PropTypes.func,
+  isRequired: PropTypes.bool
 }
 
 Input.defaultProps = {
   placeholder: '',
   label: null,
   secondaryLabel: null,
-  type: 'input'
+  type: 'input',
+  blurButtonFunction: () => {},
+  isRequired: false
 }
 
 export default Input
