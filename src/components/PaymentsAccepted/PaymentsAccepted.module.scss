@@ -1,0 +1,23 @@
+@import '../../scss/variables.scss';
+@import '../../scss/responsive-utils';
+
+.row {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+
+  .text {
+    margin-top: 8px;
+    padding-right: 6px;
+  }
+
+  .card {
+    padding-right: 30px !important;
+  }
+
+  .icon {
+    span {
+      padding-right: 6px !important;
+    }
+  }
+}
