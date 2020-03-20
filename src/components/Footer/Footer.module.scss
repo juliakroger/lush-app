@@ -1,0 +1,131 @@
+@import '../../scss/variables.scss';
+@import '../../scss/responsive-utils';
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.topFooter {
+  background: $mint-color;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+
+  .allLinks {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    min-width: 250px;
+
+    @include screen-md {
+      width: 35%;
+    }
+  }
+
+  .newsSubscription {
+    @include screen-md {
+      width: 55%;
+      border-left: 1px solid $white-color;
+      padding-left: 30px;
+    }
+
+    @include screen-sm {
+      border-top: 1px solid $white-color;
+      margin-top: 20px;
+      padding-top: 20px;
+      width: 80%;
+      border-left: none;
+    }
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title {
+    font-weight: 300;
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+
+  a {
+    text-decoration: none !important;
+    color: $light-black-color;
+  }
+
+  a:hover {
+    color: $black-color;
+  }
+
+  @include screen-sm {
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+    padding-top: 20px;
+  }
+
+  @include screen-md {
+    flex-direction: row;
+    padding: 22px 50px 50px 50px;
+  }
+}
+
+.bottomFooter {
+  background: $white-color;
+  padding: 22px 0;
+  display: flex;
+  font-size: 14px;
+
+  @include screen-sm {
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+  }
+
+  @include screen-md {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .socialIcons {
+    flex-direction: row;
+    display: flex;
+    order: 1;
+
+    @include screen-sm {
+      padding-bottom: 30px;
+    }
+
+    @include screen-md {
+      order: 2;
+    }
+
+    .icon {
+      padding-right: 20px;
+    }
+
+    .icon:last-child {
+      padding-right: 0 !important;
+    }
+  }
+
+  .developedBy {
+    order: 2;
+
+    @include screen-md {
+      order: 1;
+      padding-left: 20px;
+    }
+  }
+
+  .company {
+    order: 3;
+
+    @include screen-md {
+      padding-right: 20px;
+    }
+  }
+}

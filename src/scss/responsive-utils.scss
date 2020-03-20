@@ -1,0 +1,19 @@
+@import './variables.scss';
+
+@mixin screen-mobile {
+  @media (max-width: $screen-mobile) {
+    @content;
+  }
+}
+
+@mixin screen-sm {
+  @media  (max-width: $screen-md-min) {
+    @content;
+  }
+}
+
+@mixin screen-md {
+  @media (min-width: $screen-md-min) {
+    @content;
+  }
+}
