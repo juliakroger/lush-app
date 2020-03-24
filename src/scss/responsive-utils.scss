@@ -7,13 +7,19 @@
 }
 
 @mixin screen-sm {
-  @media  (max-width: $screen-md-min) {
+  @media (max-width: $screen-md-min) {
     @content;
   }
 }
 
 @mixin screen-md {
   @media (min-width: $screen-md-min) {
+    @content;
+  }
+}
+
+@mixin log-screen-special {
+  @media (max-width: $screen-log-page) {
     @content;
   }
 }

@@ -9,13 +9,25 @@ const Input = ({
   valueChange,
   id,
   label,
-  secondaryLabel
+  secondaryLabel,
+  clickSecondary,
+  type
 }) => (
   <div className={styles.inputContainer}>
     <div className={styles.labels}>
       {label && <div className={styles.label}>{label}</div>}
       {secondaryLabel && (
-        <div className={styles.secondaryLabel}>{secondaryLabel}</div>
+        <div
+          id='#secondary-label'
+          className={
+            clickSecondary
+              ? styles.secondaryLabelClickable
+              : styles.secondaryLabel
+          }
+          onClick={clickSecondary}
+        >
+          {secondaryLabel}
+        </div>
       )}
     </div>
     <input
@@ -24,6 +36,8 @@ const Input = ({
       onChange={e => valueChange(e.target.value)}
       id={id}
       className={styles.input}
+      type={type}
+      required
     />
   </div>
 )
@@ -33,14 +47,17 @@ Input.propTypes = {
   value: PropTypes.string.isRequired,
   valueChange: PropTypes.func.isRequired,
   id: PropTypes.string.isRequired,
-  label: PropTypes.string,
-  secondaryLabel: PropTypes.string
+  label: PropTypes.any,
+  secondaryLabel: PropTypes.any,
+  clickSecondary: PropTypes.func,
+  type: PropTypes.string
 }
 
 Input.defaultProps = {
   placeholder: '',
   label: null,
-  secondaryLabel: null
+  secondaryLabel: null,
+  type: 'input'
 }
 
 export default Input

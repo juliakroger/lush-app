@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container - Login Form should render correctly with all props 1`] = `
+<div
+  className="loginForm"
+>
+  <h1>
+    Sign In
+  </h1>
+  <Input
+    id="#signin-email"
+    label="Email"
+    placeholder="amy@example.com"
+    secondaryLabel={null}
+    type="email"
+    value=""
+    valueChange={[Function]}
+  />
+  <Input
+    clickSecondary={[Function]}
+    id="#signin-password"
+    label="Password"
+    placeholder=""
+    secondaryLabel="Forgot password?"
+    type="password"
+    value=""
+    valueChange={[Function]}
+  />
+  <Button
+    clickFunction={[MockFunction]}
+    id="#login-button"
+    text="sign in"
+    type="buttonLight"
+  />
+  <span>
+    Don't have an account? Create one 
+    <a
+      href="/"
+    >
+      here
+    </a>
+    .
+  </span>
+</div>
+`;

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Component - Input should render without crashing 1`] = `
+exports[`Component - Input should render with only required props 1`] = `
 <div
   className="inputContainer"
 >
@@ -12,12 +12,14 @@ exports[`Component - Input should render without crashing 1`] = `
     id="#test-input"
     onChange={[Function]}
     placeholder=""
+    required={true}
+    type="input"
     value="value"
   />
 </div>
 `;
 
-exports[`Component - Input should render without crashing 2`] = `
+exports[`Component - Input should render with placeholder, label and secondary label 1`] = `
 <div
   className="inputContainer"
 >
@@ -31,6 +33,7 @@ exports[`Component - Input should render without crashing 2`] = `
     </div>
     <div
       className="secondaryLabel"
+      id="#secondary-label"
     >
       label 2
     </div>
@@ -40,12 +43,41 @@ exports[`Component - Input should render without crashing 2`] = `
     id="#test-input"
     onChange={[Function]}
     placeholder="my input test"
+    required={true}
+    type="input"
     value="value"
   />
 </div>
 `;
 
-exports[`Component - Input should trigger change without crashing 1`] = `
+exports[`Component - Input should render with secondary label, click secondary function and type 1`] = `
+<div
+  className="inputContainer"
+>
+  <div
+    className="labels"
+  >
+    <div
+      className="secondaryLabelClickable"
+      id="#secondary-label"
+      onClick={[MockFunction]}
+    >
+      label 2
+    </div>
+  </div>
+  <input
+    className="input"
+    id="#test-input"
+    onChange={[Function]}
+    placeholder=""
+    required={true}
+    type="password"
+    value="value"
+  />
+</div>
+`;
+
+exports[`Component - Input should trigger input change 1`] = `
 <div
   className="inputContainer"
 >
@@ -59,6 +91,7 @@ exports[`Component - Input should trigger change without crashing 1`] = `
     </div>
     <div
       className="secondaryLabel"
+      id="#secondary-label"
     >
       label 2
     </div>
@@ -68,6 +101,8 @@ exports[`Component - Input should trigger change without crashing 1`] = `
     id="#test-input"
     onChange={[Function]}
     placeholder="my input test"
+    required={true}
+    type="input"
     value=""
   />
 </div>

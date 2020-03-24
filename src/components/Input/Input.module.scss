@@ -1,6 +1,12 @@
 @import '../../scss/variables.scss';
 @import '../../scss/responsive-utils';
 
+@mixin secondaryLabelSimple {
+  color: $grey-color;
+  position: absolute;
+  right: 0;
+}
+
 .inputContainer {
   padding: 10px;
   display: flex;
@@ -19,11 +25,18 @@
       position: relative;
       left: 0;
     }
-    .secondaryLabel {
-      color: $grey-color;
 
-      position: absolute;
-      right: 0;
+    .secondaryLabelClickable {
+      @include secondaryLabelSimple();
+      cursor: pointer;
+    }
+
+    .secondaryLabelClickable:hover {
+      color: $light-black-color;
+    }
+
+    .secondaryLabel {
+      @include secondaryLabelSimple();
     }
   }
 
