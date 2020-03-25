@@ -1,0 +1,193 @@
+import React from 'react'
+import { shallow } from 'enzyme'
+import { Button, Input } from '../../components'
+import JoinForm from './JoinForm'
+
+describe('Container - Join Form', () => {
+  it('should render correctly with all props', () => {
+    const component = shallow(
+      <JoinForm
+        name=''
+        setName={jest.fn()}
+        phone=''
+        setPhone={jest.fn()}
+        email=''
+        setEmail={jest.fn()}
+        emailConfirmation=''
+        setEmailConfirmation={jest.fn()}
+        password=''
+        setPassword={jest.fn()}
+        passwordConfirmation=''
+        setPasswordConfirmation={jest.fn()}
+        submit={jest.fn()}
+      />
+    )
+    expect(component).toMatchSnapshot()
+  })
+
+  it('should trigger name input change', () => {
+    let name = ''
+
+    const component = shallow(
+      <JoinForm
+        name=''
+        setName={value => (name = value)}
+        phone=''
+        setPhone={jest.fn()}
+        email=''
+        setEmail={jest.fn()}
+        emailConfirmation=''
+        setEmailConfirmation={jest.fn()}
+        password=''
+        setPassword={jest.fn()}
+        passwordConfirmation=''
+        setPasswordConfirmation={jest.fn()}
+        submit={jest.fn()}
+      />
+    )
+    expect(component).toMatchSnapshot()
+
+    component
+      .find(Input)
+      .at(1)
+      .props()
+      .valueChange('nameTest')
+
+    expect(name).toBe('nameTest')
+  })
+
+  it('should trigger email input change', () => {
+    let email = ''
+
+    const component = shallow(
+      <JoinForm
+        name=''
+        setName={jest.fn()}
+        phone=''
+        setPhone={jest.fn()}
+        email=''
+        setEmail={value => (email = value)}
+        emailConfirmation=''
+        setEmailConfirmation={jest.fn()}
+        password=''
+        setPassword={jest.fn()}
+        passwordConfirmation=''
+        setPasswordConfirmation={jest.fn()}
+        submit={jest.fn()}
+      />
+    )
+    expect(component).toMatchSnapshot()
+
+    component
+      .find(Input)
+      .at(2)
+      .props()
+      .valueChange('emailtest')
+
+    expect(email).toBe('emailtest')
+  })
+
+  it('should trigger email input change', () => {
+    let email = ''
+
+    const component = shallow(
+      <JoinForm
+        name=''
+        setName={jest.fn()}
+        phone=''
+        setPhone={jest.fn()}
+        email=''
+        setEmail={value => (email = value)}
+        emailConfirmation=''
+        setEmailConfirmation={jest.fn()}
+        password=''
+        setPassword={jest.fn()}
+        passwordConfirmation=''
+        setPasswordConfirmation={jest.fn()}
+        submit={jest.fn()}
+      />
+    )
+    expect(component).toMatchSnapshot()
+
+    component
+      .find(Input)
+      .at(2)
+      .props()
+      .valueChange('emailtest')
+
+    expect(email).toBe('emailtest')
+  })
+
+  it('should trigger email input change', () => {
+    let email = ''
+
+    const component = shallow(
+      <JoinForm
+        name=''
+        setName={jest.fn()}
+        phone=''
+        setPhone={jest.fn()}
+        email=''
+        setEmail={value => (email = value)}
+        emailConfirmation=''
+        setEmailConfirmation={jest.fn()}
+        password=''
+        setPassword={jest.fn()}
+        passwordConfirmation=''
+        setPasswordConfirmation={jest.fn()}
+        submit={jest.fn()}
+      />
+    )
+    expect(component).toMatchSnapshot()
+
+    component
+      .find(Input)
+      .at(2)
+      .props()
+      .valueChange('emailtest')
+
+    expect(email).toBe('emailtest')
+  })
+
+  xit('should trigger password input change', () => {
+    let password = ''
+
+    const component = shallow(
+      <JoinForm
+        email=''
+        setEmail={jest.fn()}
+        password={password}
+        setPassword={value => (password = value)}
+        submit={jest.fn()}
+      />
+    )
+
+    component
+      .find(Input)
+      .at(1)
+      .props()
+      .valueChange('passwordtest')
+
+    expect(password).toBe('passwordtest')
+  })
+
+  xit('should trigger submit button click', () => {
+    const mockFunc = jest.fn()
+
+    const component = shallow(
+      <JoinForm
+        email=''
+        setEmail={jest.fn()}
+        password=''
+        setPassword={jest.fn()}
+        submit={mockFunc}
+      />
+    )
+
+    component
+      .find(Button)
+      .props()
+      .clickFunction()
+    expect(mockFunc.mock.calls.length).toBe(1)
+  })
+})

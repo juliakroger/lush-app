@@ -1,0 +1,411 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container - Join Form should render correctly with all props 1`] = `
+<div
+  className="loginForm"
+>
+  <h1>
+    Create new Account
+  </h1>
+  <Input
+    blurButtonFunction={[Function]}
+    id="#join-name"
+    isRequired={false}
+    label="Name *"
+    placeholder="Your name"
+    secondaryLabel={null}
+    type="text"
+    value=""
+    valueChange={[Function]}
+  />
+  <Input
+    blurButtonFunction={[Function]}
+    id="#join-phone"
+    isRequired={false}
+    label="Phone"
+    placeholder="Phone"
+    secondaryLabel={null}
+    type="text"
+    value=""
+    valueChange={[Function]}
+  />
+  <Input
+    blurButtonFunction={[Function]}
+    id="#signin-email"
+    isRequired={false}
+    label="Email *"
+    placeholder="amy@example.com"
+    secondaryLabel={null}
+    type="email"
+    value=""
+    valueChange={[Function]}
+  />
+  <Input
+    blurButtonFunction={[Function]}
+    id="#signin-email-confirmation"
+    isRequired={false}
+    label="Email Confirmation *"
+    placeholder="amy@example.com"
+    secondaryLabel={null}
+    type="email"
+    value=""
+    valueChange={[Function]}
+  />
+  <Input
+    blurButtonFunction={[Function]}
+    id="#signin-password"
+    isRequired={false}
+    label="Password *"
+    placeholder=""
+    secondaryLabel={null}
+    type="password"
+    value=""
+    valueChange={[Function]}
+  />
+  <Input
+    blurButtonFunction={[Function]}
+    id="#signin-password"
+    isRequired={false}
+    label="Password Confirmation *"
+    placeholder=""
+    secondaryLabel={null}
+    type="password"
+    value=""
+    valueChange={[Function]}
+  />
+  <Button
+    clickFunction={[MockFunction]}
+    id="#login-button"
+    text="sign in"
+    type="buttonLight"
+  />
+</div>
+`;
+
+exports[`Container - Join Form should trigger email input change 1`] = `
+<div
+  className="loginForm"
+>
+  <h1>
+    Create new Account
+  </h1>
+  <Input
+    blurButtonFunction={[Function]}
+    id="#join-name"
+    isRequired={false}
+    label="Name *"
+    placeholder="Your name"
+    secondaryLabel={null}
+    type="text"
+    value=""
+    valueChange={[Function]}
+  />
+  <Input
+    blurButtonFunction={[Function]}
+    id="#join-phone"
+    isRequired={false}
+    label="Phone"
+    placeholder="Phone"
+    secondaryLabel={null}
+    type="text"
+    value=""
+    valueChange={[Function]}
+  />
+  <Input
+    blurButtonFunction={[Function]}
+    id="#signin-email"
+    isRequired={false}
+    label="Email *"
+    placeholder="amy@example.com"
+    secondaryLabel={null}
+    type="email"
+    value=""
+    valueChange={[Function]}
+  />
+  <Input
+    blurButtonFunction={[Function]}
+    id="#signin-email-confirmation"
+    isRequired={false}
+    label="Email Confirmation *"
+    placeholder="amy@example.com"
+    secondaryLabel={null}
+    type="email"
+    value=""
+    valueChange={[Function]}
+  />
+  <Input
+    blurButtonFunction={[Function]}
+    id="#signin-password"
+    isRequired={false}
+    label="Password *"
+    placeholder=""
+    secondaryLabel={null}
+    type="password"
+    value=""
+    valueChange={[Function]}
+  />
+  <Input
+    blurButtonFunction={[Function]}
+    id="#signin-password"
+    isRequired={false}
+    label="Password Confirmation *"
+    placeholder=""
+    secondaryLabel={null}
+    type="password"
+    value=""
+    valueChange={[Function]}
+  />
+  <Button
+    clickFunction={[MockFunction]}
+    id="#login-button"
+    text="sign in"
+    type="buttonLight"
+  />
+</div>
+`;
+
+exports[`Container - Join Form should trigger email input change 2`] = `
+<div
+  className="loginForm"
+>
+  <h1>
+    Create new Account
+  </h1>
+  <Input
+    blurButtonFunction={[Function]}
+    id="#join-name"
+    isRequired={false}
+    label="Name *"
+    placeholder="Your name"
+    secondaryLabel={null}
+    type="text"
+    value=""
+    valueChange={[Function]}
+  />
+  <Input
+    blurButtonFunction={[Function]}
+    id="#join-phone"
+    isRequired={false}
+    label="Phone"
+    placeholder="Phone"
+    secondaryLabel={null}
+    type="text"
+    value=""
+    valueChange={[Function]}
+  />
+  <Input
+    blurButtonFunction={[Function]}
+    id="#signin-email"
+    isRequired={false}
+    label="Email *"
+    placeholder="amy@example.com"
+    secondaryLabel={null}
+    type="email"
+    value=""
+    valueChange={[Function]}
+  />
+  <Input
+    blurButtonFunction={[Function]}
+    id="#signin-email-confirmation"
+    isRequired={false}
+    label="Email Confirmation *"
+    placeholder="amy@example.com"
+    secondaryLabel={null}
+    type="email"
+    value=""
+    valueChange={[Function]}
+  />
+  <Input
+    blurButtonFunction={[Function]}
+    id="#signin-password"
+    isRequired={false}
+    label="Password *"
+    placeholder=""
+    secondaryLabel={null}
+    type="password"
+    value=""
+    valueChange={[Function]}
+  />
+  <Input
+    blurButtonFunction={[Function]}
+    id="#signin-password"
+    isRequired={false}
+    label="Password Confirmation *"
+    placeholder=""
+    secondaryLabel={null}
+    type="password"
+    value=""
+    valueChange={[Function]}
+  />
+  <Button
+    clickFunction={[MockFunction]}
+    id="#login-button"
+    text="sign in"
+    type="buttonLight"
+  />
+</div>
+`;
+
+exports[`Container - Join Form should trigger email input change 3`] = `
+<div
+  className="loginForm"
+>
+  <h1>
+    Create new Account
+  </h1>
+  <Input
+    blurButtonFunction={[Function]}
+    id="#join-name"
+    isRequired={false}
+    label="Name *"
+    placeholder="Your name"
+    secondaryLabel={null}
+    type="text"
+    value=""
+    valueChange={[Function]}
+  />
+  <Input
+    blurButtonFunction={[Function]}
+    id="#join-phone"
+    isRequired={false}
+    label="Phone"
+    placeholder="Phone"
+    secondaryLabel={null}
+    type="text"
+    value=""
+    valueChange={[Function]}
+  />
+  <Input
+    blurButtonFunction={[Function]}
+    id="#signin-email"
+    isRequired={false}
+    label="Email *"
+    placeholder="amy@example.com"
+    secondaryLabel={null}
+    type="email"
+    value=""
+    valueChange={[Function]}
+  />
+  <Input
+    blurButtonFunction={[Function]}
+    id="#signin-email-confirmation"
+    isRequired={false}
+    label="Email Confirmation *"
+    placeholder="amy@example.com"
+    secondaryLabel={null}
+    type="email"
+    value=""
+    valueChange={[Function]}
+  />
+  <Input
+    blurButtonFunction={[Function]}
+    id="#signin-password"
+    isRequired={false}
+    label="Password *"
+    placeholder=""
+    secondaryLabel={null}
+    type="password"
+    value=""
+    valueChange={[Function]}
+  />
+  <Input
+    blurButtonFunction={[Function]}
+    id="#signin-password"
+    isRequired={false}
+    label="Password Confirmation *"
+    placeholder=""
+    secondaryLabel={null}
+    type="password"
+    value=""
+    valueChange={[Function]}
+  />
+  <Button
+    clickFunction={[MockFunction]}
+    id="#login-button"
+    text="sign in"
+    type="buttonLight"
+  />
+</div>
+`;
+
+exports[`Container - Join Form should trigger name input change 1`] = `
+<div
+  className="loginForm"
+>
+  <h1>
+    Create new Account
+  </h1>
+  <Input
+    blurButtonFunction={[Function]}
+    id="#join-name"
+    isRequired={false}
+    label="Name *"
+    placeholder="Your name"
+    secondaryLabel={null}
+    type="text"
+    value=""
+    valueChange={[Function]}
+  />
+  <Input
+    blurButtonFunction={[Function]}
+    id="#join-phone"
+    isRequired={false}
+    label="Phone"
+    placeholder="Phone"
+    secondaryLabel={null}
+    type="text"
+    value=""
+    valueChange={[Function]}
+  />
+  <Input
+    blurButtonFunction={[Function]}
+    id="#signin-email"
+    isRequired={false}
+    label="Email *"
+    placeholder="amy@example.com"
+    secondaryLabel={null}
+    type="email"
+    value=""
+    valueChange={[Function]}
+  />
+  <Input
+    blurButtonFunction={[Function]}
+    id="#signin-email-confirmation"
+    isRequired={false}
+    label="Email Confirmation *"
+    placeholder="amy@example.com"
+    secondaryLabel={null}
+    type="email"
+    value=""
+    valueChange={[Function]}
+  />
+  <Input
+    blurButtonFunction={[Function]}
+    id="#signin-password"
+    isRequired={false}
+    label="Password *"
+    placeholder=""
+    secondaryLabel={null}
+    type="password"
+    value=""
+    valueChange={[Function]}
+  />
+  <Input
+    blurButtonFunction={[Function]}
+    id="#signin-password"
+    isRequired={false}
+    label="Password Confirmation *"
+    placeholder=""
+    secondaryLabel={null}
+    type="password"
+    value=""
+    valueChange={[Function]}
+  />
+  <Button
+    clickFunction={[MockFunction]}
+    id="#login-button"
+    text="sign in"
+    type="buttonLight"
+  />
+</div>
+`;
