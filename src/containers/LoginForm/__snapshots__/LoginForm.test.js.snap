@@ -8,7 +8,9 @@ exports[`Container - Login Form should render correctly with all props 1`] = `
     Sign In
   </h1>
   <Input
+    blurButtonFunction={[Function]}
     id="#signin-email"
+    isRequired={false}
     label="Email"
     placeholder="amy@example.com"
     secondaryLabel={null}
@@ -17,8 +19,10 @@ exports[`Container - Login Form should render correctly with all props 1`] = `
     valueChange={[Function]}
   />
   <Input
+    blurButtonFunction={[Function]}
     clickSecondary={[Function]}
     id="#signin-password"
+    isRequired={false}
     label="Password"
     placeholder=""
     secondaryLabel="Forgot password?"
